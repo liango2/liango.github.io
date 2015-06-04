@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="css/相片切换.css">
+    <script type="text/javascript" src="js/jquery.min.js"></script>
+    <script type="text/javascript" src="js/相片切换/album.js"></script>
+    <title>相片切换</title>
+</head>
+<body>
+<h1>练习编写jQuery插件</h1>
+<h2>实现幻灯片效果</h2>
+
+<div class="J_Poster poster-main" data-setting='{
+            "width": 1024,
+            "height": 270,
+            "posterWidth": 540,
+            "posterHeight": 270,
+            "scale": 0.9,
+            "speed": 200,
+            "verticalAlign": "middle"
+}'>
+    <div class="poster-btn poster-prev-btn"></div>
+    <ul class="poster-list">
+        <li class="poster-item"><a href="#"><img src="img/相片切换/1.png" width="100%"></a></li>
+        <li class="poster-item"><a href="#"><img src="img/相片切换/2.png" width="100%"></a></li>
+        <li class="poster-item"><a href="#"><img src="img/相片切换/3.png" width="100%"></a></li>
+        <li class="poster-item"><a href="#"><img src="img/相片切换/4.png" width="100%"></a></li>
+        <li class="poster-item"><a href="#"><img src="img/相片切换/5.png" width="100%"></a></li>
+        <li class="poster-item"><a href="#"><img src="img/相片切换/2.png" width="100%"></a></li>
+        <li class="poster-item"><a href="#"><img src="img/相片切换/3.png" width="100%"></a></li>
+        <li class="poster-item"><a href="#"><img src="img/相片切换/4.png" width="100%"></a></li>
+        <li class="poster-item"><a href="#"><img src="img/相片切换/5.png" width="100%"></a></li>
+    </ul>
+    <div class="poster-btn poster-next-btn"></div>
+</div>
+
+<div class="J_Poster poster-main" data-setting='{
+            "width": 1024,
+            "height": 270,
+            "posterWidth": 540,
+            "posterHeight": 270,
+            "scale": 0.9,
+            "speed": 500,
+            "delay": 5000,
+            "verticalAlign": "top"
+}'>
+    <div class="poster-btn poster-prev-btn"></div>
+    <ul class="poster-list">
+        <li class="poster-item"><a href="#"><img src="img/相片切换/1.png" width="100%"></a></li>
+        <li class="poster-item"><a href="#"><img src="img/相片切换/2.png" width="100%"></a></li>
+        <li class="poster-item"><a href="#"><img src="img/相片切换/3.png" width="100%"></a></li>
+        <li class="poster-item"><a href="#"><img src="img/相片切换/4.png" width="100%"></a></li>
+        <li class="poster-item"><a href="#"><img src="img/相片切换/5.png" width="100%"></a></li>
+        <li class="poster-item"><a href="#"><img src="img/相片切换/2.png" width="100%"></a></li>
+        <li class="poster-item"><a href="#"><img src="img/相片切换/3.png" width="100%"></a></li>
+        <li class="poster-item"><a href="#"><img src="img/相片切换/4.png" width="100%"></a></li>
+        <li class="poster-item"><a href="#"><img src="img/相片切换/5.png" width="100%"></a></li>
+    </ul>
+    <div class="poster-btn poster-next-btn"></div>
+</div>
+
+<div class="J_Poster poster-main" data-setting='{
+            "width": 1024,
+            "height": 270,
+            "posterWidth": 540,
+            "posterHeight": 270,
+            "scale": 0.9,
+            "speed": 200,
+            "delay": 2000,
+            "verticalAlign": "bottom"
+}'>
+    <div class="poster-btn poster-prev-btn"></div>
+    <ul class="poster-list">
+        <li class="poster-item"><a href="#"><img src="img/相片切换/1.png" width="100%"></a></li>
+        <li class="poster-item"><a href="#"><img src="img/相片切换/2.png" width="100%"></a></li>
+        <li class="poster-item"><a href="#"><img src="img/相片切换/3.png" width="100%"></a></li>
+        <li class="poster-item"><a href="#"><img src="img/相片切换/4.png" width="100%"></a></li>
+        <li class="poster-item"><a href="#"><img src="img/相片切换/5.png" width="100%"></a></li>
+        <li class="poster-item"><a href="#"><img src="img/相片切换/2.png" width="100%"></a></li>
+        <li class="poster-item"><a href="#"><img src="img/相片切换/3.png" width="100%"></a></li>
+        <li class="poster-item"><a href="#"><img src="img/相片切换/4.png" width="100%"></a></li>
+        <li class="poster-item"><a href="#"><img src="img/相片切换/5.png" width="100%"></a></li>
+    </ul>
+    <div class="poster-btn poster-next-btn"></div>
+</div>
+<!--    <div class="J_Poster poster-main">
+        <div class="poster-btn poster-prev-btn"></div>
+        <ul class="poster-list">
+            <li class="poster-item"><a href="#"><img src="img/相片切换/1.png" width="100%" ></a></li>
+            <li class="poster-item"><a href="#"><img src="img/相片切换/2.png" width="100%" ></a></li>
+            <li class="poster-item"><a href="#"><img src="img/相片切换/3.png" width="100%" ></a></li>
+            <li class="poster-item"><a href="#"><img src="img/相片切换/4.png" width="100%" ></a></li>
+        </ul>
+        <div class="poster-btn poster-next-btn"></div>
+    </div>-->
+
+<script>
+    $(function () {
+/*        var setting = {
+            width: 1000,
+            height: 270,
+            posterWidth: 640,
+            posterHeight: 270,
+            scale: 0.9, // 按照90%缩小
+            speed: 500, // 显示速度 500毫秒
+            verticalAlign: "middle"
+        }*/
+        Album.init($(".J_Poster"))
+    })
+</script>
+</body>
+</html>
