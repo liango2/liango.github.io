@@ -4,6 +4,13 @@
     <meta charset="UTF-8">
     <title></title>
     <link href="js/bootstrap-2.3.0/bootstrap-combined.min.css" rel="stylesheet">
+
+
+    <link rel="stylesheet" href="css/相片切换.css">
+    <script type="text/javascript" src="js/jquery.min.js"></script>
+    <script type="text/javascript" src="js/相片切换/album.js"></script>
+
+
     <style type="text/css">
         body {
             background-color: #CCC;
@@ -29,7 +36,7 @@
 </head>
 <body>
 <div class="container">
-    <h1>JAVASCRIPT & CSS 练习</h1>
+    <h1>练习</h1>
 
     <div class="navbar navbar-inverse">
         <div class="navbar-inner nav-collapse" style="height: auto;">
@@ -45,10 +52,34 @@
     <div id="content" class="row-fluid">
 
         <div class="span9 main">
-            <h2>Main Content Section</h2>
+            <h2>主页</h2>
+
+            <div class="J_Poster poster-main" data-setting='{
+            "width": 800,
+            "height": 270,
+            "posterWidth": 540,
+            "posterHeight": 270,
+            "scale": 0.9,
+            "speed": 500,
+            "verticalAlign": "middle"
+}'>
+                <div class="poster-btn poster-prev-btn"></div>
+                <ul class="poster-list">
+                    <li class="poster-item"><a href="#"><img src="img/相片切换/1.png" width="100%"></a></li>
+                    <li class="poster-item"><a href="#"><img src="img/相片切换/2.png" width="100%"></a></li>
+                    <li class="poster-item"><a href="#"><img src="img/相片切换/3.png" width="100%"></a></li>
+                    <li class="poster-item"><a href="#"><img src="img/相片切换/4.png" width="100%"></a></li>
+                    <li class="poster-item"><a href="#"><img src="img/相片切换/5.png" width="100%"></a></li>
+                    <li class="poster-item"><a href="#"><img src="img/相片切换/2.png" width="100%"></a></li>
+                    <li class="poster-item"><a href="#"><img src="img/相片切换/3.png" width="100%"></a></li>
+                    <li class="poster-item"><a href="#"><img src="img/相片切换/4.png" width="100%"></a></li>
+                    <li class="poster-item"><a href="#"><img src="img/相片切换/5.png" width="100%"></a></li>
+                </ul>
+                <div class="poster-btn poster-next-btn"></div>
+            </div>
 
             <p># calendar
-           </p>
+            </p>
 
             <p>
 
@@ -56,9 +87,8 @@
 
             <p> 一个网页版的日期选择器插件，取代手工输入。</p>
 
+
             <p> 未完， 待续...</p>
-
-
         </div>
         <div class="span3 sidebar">
             <h2>侧边拦</h2>
@@ -67,12 +97,28 @@
                 <li><a href="同时呈现同步与异步的js函数.html">同时呈现同步与异步的js函数</a> </li>
                 <li><a href="复仇者联盟2.html">复仇者联盟2</a> </li>
                 <li><a href="棱形格子.html">棱形格子</a></li>
-                <li><a href="520.html">520</a></li>
+                <li><a href="520.html">love</a></li>
                 <li><a href="3d彩虹猫.html">3d彩虹猫</a></li>
+                <li><a href="图片切换.html">练习编写幻灯片插件</a></li>
             </ul>
         </div>
 
     </div>
 </div>
+
+<script>
+    $(function () {
+        /*        var setting = {
+         width: 1000,
+         height: 270,
+         posterWidth: 640,
+         posterHeight: 270,
+         scale: 0.9, // 按照90%缩小
+         speed: 500, // 显示速度 500毫秒
+         verticalAlign: "middle"
+         }*/
+        Album.init($(".J_Poster"))
+    })
+</script>
 </body>
 </html>
