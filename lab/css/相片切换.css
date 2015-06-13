@@ -1,0 +1,14 @@
+/* 相框 */
+.poster-main { position: relative; width: 800px; height: 270px;}
+/* 消除默认的图片与外框多出的间隙 */
+.poster-main .a，。poster-main img{display: block;}
+/* 相框 相片们 */
+.poster-main .poster-list{ width: 800px; height: 270px;
+    list-style:none; // 隐藏圆点
+}
+/* 相框 相片们 相片*/
+.poster-main .poster-list .poster-item{position: absolute; left: 0; top: 0;}
+/* 相框 按钮*/
+.poster-main .poster-btn{ position: absolute; top: 0; width: 100px; height: 270px; z-index: 10; cursor: pointer; opacity: 0.8;}
+.poster-main .poster-prev-btn{left: 0; background: url(btn_l.png) no-repeat center center;}
+.poster-main .poster-next-btn{right: 0;background: url(btn_r.png) no-repeat center center;}

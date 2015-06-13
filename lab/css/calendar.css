@@ -1,0 +1,165 @@
+#cal {
+  width: 198px;
+  height: 156px;
+  border: 1px solid black;
+  position: absolute;
+  padding: 2px;
+}
+
+#cal_header {
+  width: 198px;
+  position: relative;
+  background-color: rgb(229, 229, 222);
+  height: 30px;
+}
+
+#cal_prev {
+  width: 21px;
+  // height: 16px;
+  position: absolute;
+  z-index: 5; 
+  // //background: url("left.gif")
+  // top: 7px;
+  // left: 7px;
+
+  //overflow: hidden;
+  //font-size: 2px;
+
+  cursor: pointer;
+
+  line-height: 30px;
+
+  text-align: center;
+}
+
+#cal_next {
+  width: 21px;
+  // height: 16px;
+  position: absolute;
+  z-index: 5; 
+  // //background: url("right.gif")
+  top: 7px;
+  left: 173px;
+
+  //overflow: hidden;
+  //font-size: 2px;
+
+  cursor: pointer;
+
+  line-height: 30px;
+
+  text-align: center;
+}
+
+#cal_month {
+  position: absolute;
+  left: 21px;
+
+  z-index: 2;
+  line-height: 30px;
+  text-align: center;
+  font-size: 12px;
+  font-weight: bold;
+  font-family: Arial;
+
+  width: 152px
+}
+
+#cal_week {
+  pointer: relative;
+  height: 15px;
+}
+
+#cal_week div {
+  width: 28px;
+  height: 15px;
+  line-height: 15px;
+  float: left;
+
+  text-align: center;
+  font-size: 12px;
+  font-family: Arial;
+  //color: #cfcfcf;
+
+}
+
+#cal_week div:nth-last-child(2),#cal_week div:last-child {
+  color: red; // 周末
+}
+
+#cal_body {
+  position: relative;
+  height: 94px;
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
+
+  width: 196px;
+}
+
+#cal_day {
+  position: relative;
+
+  cursor: pointer;
+}
+
+#cal_day .gray {
+  color: #DBCECE;
+}
+
+#cal_day .selected {
+  background-color: #83b3cd;
+}
+
+#cal_day .today_selected {
+  color: #767676;
+}
+
+#cal_day .today{
+  color: #767676;
+}
+
+#cal_day div {
+  width: 28px;
+  height: 15px;
+  line-height: 15px;
+  float: left;
+
+  text-align: center;
+  font-size: 12px;
+  font-family: Courier New;
+  //color: #cfcfcf; 
+
+  //border: 1px solid black; 
+}
+
+#cal_foot {
+  height: 15px;
+  position: relative;
+}
+
+#cal_get_today {
+  height: 14px;
+  width: 51px;
+  float: left;
+
+  cursor: pointer;
+
+  //line-height: 30px;
+
+  text-align: center;
+  font-size: 12px;
+  font-family: Courier New;
+
+  margin-left: 3px;
+}
+
+#cal_dt_str {
+  height: 14px;
+  //width: 150px;
+  float: left;
+
+  text-align: center;
+  font-size: 12px;
+  font-family: Courier New;
+}
+
