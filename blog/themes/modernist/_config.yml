@@ -1,0 +1,20 @@
+menu:
+  Home: /
+  Archives: /archives
+rss: /atom.xml
+
+archive_date_format: MMM DD
+
+
+blogrolls: #友情链接
+  - liango sha's csdn: http://blog.csdn.net/lord_is_layuping
+
+baidu_tongji: true
+
+
+fancybox: true
+
+duoshuo_shortname: liango
+
+google_analytics:
+favicon: /favicon.ico
