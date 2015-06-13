@@ -2,102 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3679983c-4d1a-438e-a31d-fef2c3149f1e" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendors/fancybox/demo/1_b.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendors/fancybox/demo/1_s.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendors/fancybox/demo/2_b.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendors/fancybox/demo/2_s.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendors/fancybox/demo/3_b.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendors/fancybox/demo/3_s.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendors/fancybox/demo/4_b.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendors/fancybox/demo/4_s.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendors/fancybox/demo/5_b.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendors/fancybox/demo/5_s.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fonts/lato/Lato-Bold.eot" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fonts/lato/Lato-Bold.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fonts/lato/Lato-Bold.woff" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fonts/lato/Lato-BoldItalic.eot" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fonts/lato/Lato-BoldItalic.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fonts/lato/Lato-BoldItalic.woff" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fonts/lato/Lato-Italic.eot" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fonts/lato/Lato-Italic.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fonts/lato/Lato-Italic.woff" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fonts/lato/Lato-Regular.eot" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fonts/lato/Lato-Regular.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fonts/lato/Lato-Regular.woff" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/bkdefault_avatar.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendors/fancybox/source/blank.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendors/fancybox/source/helpers/fancybox_buttons.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendors/fancybox/source/fancybox_loading.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendors/fancybox/source/fancybox_loading@2x.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendors/fancybox/source/fancybox_overlay.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendors/fancybox/source/fancybox_sprite.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendors/fancybox/source/fancybox_sprite@2x.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fonts/icon-default/icomoon.eot" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fonts/icon-feather/icomoon.eot" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fonts/icon-fifty-shades/icomoon.eot" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fonts/icon-icomoon/icomoon.eot" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fonts/icon-linecons/icomoon.eot" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fonts/icon-default/icomoon.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fonts/icon-feather/icomoon.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fonts/icon-fifty-shades/icomoon.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fonts/icon-icomoon/icomoon.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fonts/icon-linecons/icomoon.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fonts/icon-default/icomoon.woff" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fonts/icon-feather/icomoon.woff" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fonts/icon-fifty-shades/icomoon.woff" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fonts/icon-icomoon/icomoon.woff" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fonts/icon-linecons/icomoon.woff" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/searchicon.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendors/fancybox/sprite.psd" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendors/fancybox/CHANGELOG.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendors/fancybox/README.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendors/fancybox/demo/ajax.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/analytics_google-analytics.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/bootstrap.scrollspy.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendors/velocity/bower.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/cc-by-nc-nd.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/cc-by-nc-sa.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/cc-by-nc.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/cc-by-nd.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/cc-by-sa.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/cc-by.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/cc-zero.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/fancy-box.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/helpers.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fonts/icon-default/icomoon.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fonts/icon-feather/icomoon.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fonts/icon-fifty-shades/icomoon.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fonts/icon-icomoon/icomoon.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fonts/icon-linecons/icomoon.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendors/fancybox/demo/iframe.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/2015/06/14/2015-06-12-翻转二叉树/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/archives/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/archives/2015/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/archives/2015/06/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendors/fancybox/demo/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendors/jquery/index.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendors/fancybox/lib/jquery-1.10.1.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendors/fancybox/lib/jquery-1.9.0.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendors/fancybox/source/helpers/jquery.fancybox-buttons.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendors/fancybox/source/helpers/jquery.fancybox-buttons.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendors/fancybox/source/helpers/jquery.fancybox-media.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendors/fancybox/source/helpers/jquery.fancybox-thumbs.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendors/fancybox/source/helpers/jquery.fancybox-thumbs.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendors/fancybox/source/jquery.fancybox.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendors/fancybox/source/jquery.fancybox.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendors/fancybox/source/jquery.fancybox.pack.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendors/fancybox/lib/jquery.mousewheel-3.0.6.pack.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/main.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/motion_fallback.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/motion_global.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/search-toggle.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendors/velocity/velocity.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendors/velocity/velocity.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendors/velocity/velocity.ui.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendors/velocity/velocity.ui.min.js" />
-      <change type="MOVED" beforePath="C:\Users\liango\Documents\GitHub\liango2.github.io\index.html" afterPath="$PROJECT_DIR$/lab/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lab/index.html" afterPath="$PROJECT_DIR$/lab/index.html" />
     </list>
     <ignored path="liango2.github.io.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -121,8 +26,8 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/lab/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-1.5263158">
-              <caret line="38" column="18" selection-start-line="38" selection-start-column="18" selection-end-line="38" selection-end-column="18" />
+            <state vertical-scroll-proportion="-6.868421">
+              <caret line="45" column="34" selection-start-line="45" selection-start-column="34" selection-end-line="45" selection-end-column="34" />
               <folding />
             </state>
           </provider>
@@ -230,8 +135,8 @@
         <option value="$PROJECT_DIR$/blog/public/index.html" />
         <option value="$PROJECT_DIR$/blog/source/404.html" />
         <option value="$PROJECT_DIR$/404.html" />
-        <option value="$PROJECT_DIR$/lab/index.html" />
         <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/lab/index.html" />
       </list>
     </option>
   </component>
@@ -819,14 +724,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lab/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-1.5263158">
-          <caret line="38" column="18" selection-start-line="38" selection-start-column="18" selection-end-line="38" selection-end-column="18" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/2015/06/14/2015-06-12-翻转二叉树/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -838,6 +735,14 @@
             <marker date="1434224609609" expanded="true" signature="1473:1710" placeholder="..." />
             <marker date="1434224609609" expanded="false" signature="1658:1708" placeholder="..." />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lab/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-6.868421">
+          <caret line="45" column="34" selection-start-line="45" selection-start-column="34" selection-end-line="45" selection-end-column="34" />
+          <folding />
         </state>
       </provider>
     </entry>
