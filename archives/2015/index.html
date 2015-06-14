@@ -53,7 +53,7 @@
 
 
 
-  <title> 归档 // Liango的博客 </title>
+  <title> 归档 // liango的博客 </title>
 </head>
 
 <body>
@@ -78,7 +78,7 @@
       <span class="logo">
         <i class="icon-logo"></i>
       </span>
-      <span class="site-title">Liango的博客</span>
+      <span class="site-title">liango的博客</span>
   </a>
   <span class="logo-line-after"><i></i></span>
 </h1>
@@ -95,13 +95,29 @@
   
 
   
-    <ul id="menu" class="menu ">
+    <ul id="menu" class="menu menu-left">
       
         
         <li class="menu-item menu-item-home">
           <a href="/">
             <i class="menu-item-icon icon-home"></i> <br />
             首页
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-categories">
+          <a href="/categories">
+            <i class="menu-item-icon icon-categories"></i> <br />
+            分类
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-about">
+          <a href="/about">
+            <i class="menu-item-icon icon-about"></i> <br />
+            关于
           </a>
         </li>
       
@@ -121,9 +137,38 @@
           </a>
         </li>
       
+        
+        <li class="menu-item menu-item-codelabs">
+          <a href="/lab/index.html">
+            <i class="menu-item-icon icon-codelabs"></i> <br />
+            lab
+          </a>
+        </li>
+      
     </ul>
   
 
+  
+    <div class="site-search">
+      
+  
+<form class="site-search-form">
+  <input type="text" id="st-search-input" class="st-search-input st-default-search-input" />
+</form>
+<script type="text/javascript">
+  (function(w,d,t,u,n,s,e){w['SwiftypeObject']=n;w[n]=w[n]||function(){
+    (w[n].q=w[n].q||[]).push(arguments);};s=d.createElement(t);
+    e=d.getElementsByTagName(t)[0];s.async=1;s.src=u;e.parentNode.insertBefore(s,e);
+  })(window,document,'script','//s.swiftypecdn.com/install/v2/st.js','_st');
+
+  _st('install', 'FMMM3m8kEevhXxXFYtJY','2.0.0');
+</script>
+
+
+
+
+<div class="site-search-toggle"></div>
+    </div>
   
 </div>
 
@@ -214,8 +259,8 @@
 
       <div class="site-overview">
         <div class="site-author motion-element">
-          <img class="site-author-image" src="/images/default_avatar.jpg" alt="Liango" />
-          <p class="site-author-name">Liango</p>
+          <img class="site-author-image" src="/images/default_avatar.jpg" alt="liango" />
+          <p class="site-author-name">liango</p>
         </div>
         <p class="site-description motion-element"></p>
         <div class="site-state motion-element">
@@ -227,15 +272,15 @@
           </div>
 
           <div class="site-state-item site-state-categories">
-            
-              <span class="site-state-item-count">0</span>
+            <a href="/categories">
+              <span class="site-state-item-count">1</span>
               <span class="site-state-item-name">分类</span>
-              
+              </a>
           </div>
 
           <div class="site-state-item site-state-tags">
             <a href="/tags">
-              <span class="site-state-item-count">0</span>
+              <span class="site-state-item-count">3</span>
               <span class="site-state-item-name">标签</span>
               </a>
           </div>
@@ -249,6 +294,14 @@
             
               <span class="links-of-author-item">
               <a href="http://weibo.com/javater" target="_blank">Weibo</a>
+            </span>
+            
+              <span class="links-of-author-item">
+              <a href="http://blog.csdn.net/lord_is_layuping" target="_blank">Csdn</a>
+            </span>
+            
+              <span class="links-of-author-item">
+              <a href="http://my.oschina.net/liango" target="_blank">oschina</a>
             </span>
             
           
@@ -282,9 +335,10 @@
   <span class="with-love">
     <i class="icon-heart"></i>
   </span>
-  <span class="author">Liango</span>
+  <span class="author">liango</span>
 </div>
 
+<!--
 <div class="powered-by">
   由 <a class="theme-link" href="http://hexo.io">Hexo</a> 强力驱动
 </div>
@@ -295,6 +349,7 @@
     NexT.Mist
   </a>
 </div>
+-->
 
 
 

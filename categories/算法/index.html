@@ -53,7 +53,7 @@
 
 
 
-  <title> liango的博客 </title>
+  <title> 分类: 算法 // liango的博客 </title>
 </head>
 
 <body>
@@ -67,9 +67,7 @@
   </div>
 <![endif]-->
 
-  <div class="container one-column 
-   page-home 
-">
+  <div class="container one-column ">
     <div class="headband"></div>
 
     <div id="header" class="header">
@@ -182,101 +180,33 @@
       <div class="main-inner">
         <div id="content" class="content">
           
-  <div id="posts" class="posts-expand">
+
+  <div id="posts" class="posts-collapse">
+    <div class="collection-title">
+      <h2 >
+        算法
+        <small>分类</small>
+      </h2>
+    </div>
+
     
       
 
-  <div class="post post-type-normal ">
+  <div class="post post-type-normal">
     <div class="post-header">
 
-      
-      
-        <h1 class="post-title">
-          
-          
-            
-              <a class="post-title-link" href="/2015/06/14/2015-06-12-翻转二叉树/">
-                2015-06-12-翻转二叉树
-              </a>
-            
-          
-        </h1>
-      
-
-      <div class="post-meta">
-        <span class="post-time">
-          发表于 2015-06-14
-        </span>
-
+      <div class="post-title">
         
-          <span class="post-category">
-            &nbsp; | &nbsp; 分类于
-            
-              <a href="/categories/算法/">算法</a>
-
-              
-              
-
-            
-          </span>
-        
-
-        
-          
-            <span class="post-comments-count">
-            &nbsp; | &nbsp;
-            <a href="/2015/06/14/2015-06-12-翻转二叉树/#comments" >
-              <span class="post-comments-count ds-thread-count" data-thread-key="2015/06/14/2015-06-12-翻转二叉树/"></span>
+            <a class="post-title-link" href="/2015/06/14/2015-06-12-翻转二叉树/">
+              2015-06-12-翻转二叉树
             </a>
-          </span>
-          
         
       </div>
-    </div>
 
-    <div class="post-body">
+      <div class="post-meta">
+        <span class="post-time"> 06-14 </span>
+      </div>
 
-      
-      
-
-      
-        
-          <p>leetcode——226 Invert Binary Tree（翻转二叉树，会做就能进谷歌哦~~）</p>
-<p>[[Invert]] Binary Tree | LeetCode OJ<br><a href="https://leetcode.com/problems/invert-binary-tree/" target="_blank" rel="external">https://leetcode.com/problems/invert-binary-tree/</a></p>
-<h3 id="题目">题目</h3><pre><code>Invert Binary Tree Total <span class="attribute">Accepted</span>: <span class="number">1332</span> Total <span class="attribute">Submissions</span>: <span class="number">3716</span> My Submissions Question Solution 
-Invert a binary tree.
-
-     <span class="number">4</span>
-   /   <span class="string">\</span>
-  <span class="number">2</span>     <span class="number">7</span>
- / <span class="string">\</span>   / <span class="string">\</span>
-<span class="number">1</span>   <span class="number">3</span> <span class="number">6</span>   <span class="number">9</span>
-<span class="keyword">to</span>
-     <span class="number">4</span>
-   /   <span class="string">\</span>
-  <span class="number">7</span>     <span class="number">2</span>
- / <span class="string">\</span>   / <span class="string">\</span>
-<span class="number">9</span>   <span class="number">6</span> <span class="number">3</span>   <span class="number">1</span>
-<span class="attribute">Trivia</span>:
-This problem was inspired <span class="keyword">by</span> <span class="keyword">this</span> original tweet <span class="keyword">by</span> Max <span class="attribute">Howell</span>:
-<span class="attribute">Google</span>: <span class="number">90</span>% <span class="keyword">of</span> our engineers use the software you wrote (Homebrew), but you can’t invert a binary tree <span class="literal">on</span> a whiteboard so fuck <span class="literal">off</span>.
-</code></pre><h3 id="解题思路">解题思路</h3><p>直接获取根节点的左右节点，然后进行交换即可。方法一直接进行交换，方法二使用二叉树层次遍历，话不多说直接上代码。</p>
-<figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br></pre></td><td class="code"><pre><span class="line"></span><br><span class="line"><span class="comment">/**</span><br><span class="line"> * Definition for a binary tree node.</span><br><span class="line"> * public class TreeNode &#123;</span><br><span class="line"> *     int val;</span><br><span class="line"> *     TreeNode left;</span><br><span class="line"> *     TreeNode right;</span><br><span class="line"> *     TreeNode(int x) &#123; val = x; &#125;</span><br><span class="line"> * &#125;</span><br><span class="line"> */</span></span><br><span class="line"></span><br><span class="line"><span class="keyword">public</span> <span class="class"><span class="keyword">class</span> <span class="title">Solution</span> </span>&#123;</span><br><span class="line">    <span class="function"><span class="keyword">public</span> TreeNode <span class="title">invertTree</span><span class="params">(TreeNode root)</span> </span>&#123;</span><br><span class="line">       <span class="keyword">if</span> (root == <span class="keyword">null</span>) &#123;</span><br><span class="line">            <span class="keyword">return</span> <span class="keyword">null</span>;</span><br><span class="line">        &#125;</span><br><span class="line">        TreeNode t = <span class="keyword">new</span> TreeNode(root.val);</span><br><span class="line">        t.right = invertTree(root.left);</span><br><span class="line">        t.left = invertTree(root.right);</span><br><span class="line"></span><br><span class="line">        <span class="keyword">return</span> t;</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-<p>更多<br>leetcode——226 Invert Binary Tree（翻转二叉树，会做就能进谷歌哦~~） - zzc8265020的博客 - 博客频道 - CSDN.NET<br><a href="http://blog.csdn.net/zzc8265020/article/details/46473757" target="_blank" rel="external">http://blog.csdn.net/zzc8265020/article/details/46473757</a></p>
-
-        
-      
-    </div>
-
-    <div class="post-footer">
-      
-
-      
-
-      
-      
-        <div class="post-eof"></div>
-      
     </div>
   </div>
 
@@ -285,6 +215,7 @@ This problem was inspired <span class="keyword">by</span> <span class="keyword">
   </div>
 
   
+
 
         </div>
 
@@ -413,6 +344,12 @@ This problem was inspired <span class="keyword">by</span> <span class="keyword">
 
   
   
+  
+    <script type="text/javascript">
+      postMotionOptions = {stagger: 100, drag: true};
+    </script>
+  
+
 
   
   <script type="text/javascript" src="/vendors/fancybox/source/jquery.fancybox.pack.js"></script>
@@ -444,26 +381,6 @@ This problem was inspired <span class="keyword">by</span> <span class="keyword">
   
 
   
-  
-
-  
-    
-  
-
-  <script type="text/javascript">
-    var duoshuoQuery = {short_name:"liango"};
-    (function() {
-      var ds = document.createElement('script');
-      ds.type = 'text/javascript';ds.async = true;
-      ds.src = (document.location.protocol == 'https:' ? 'https:' : 'http:') + '//static.duoshuo.com/embed.js';
-      ds.charset = 'UTF-8';
-      (document.getElementsByTagName('head')[0]
-      || document.getElementsByTagName('body')[0]).appendChild(ds);
-    })();
-  </script>
-
-  
-
 
   
   

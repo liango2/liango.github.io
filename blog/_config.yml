@@ -3,10 +3,10 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: Liango的博客
+title: liango的博客
 subtitle: 程序猿
 description:
-author: Liango
+author: liango
 email: intellij@qq.com 
 language: zh-Hans
 timezone:
@@ -94,6 +94,8 @@ social:
   Weibo: http://weibo.com/javater
   #DouBan: your-douban-url
   #ZhiHu: your-zhihu-url
+  Csdn: http://blog.csdn.net/lord_is_layuping
+  oschina: http://my.oschina.net/liango
   # 等等
 
 
@@ -118,6 +120,8 @@ baidu_analytics: 4f5670223e101af125b3d90278f5b8b7
 # 站点起始时间
 since: 2015
 
+
+swiftype_key: FMMM3m8kEevhXxXFYtJY
 # =============================================================================
 # End NexT Theme configuration
 # =============================================================================
