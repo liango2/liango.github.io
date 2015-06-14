@@ -1,11 +1,12 @@
 # when running hexo in a subdirectory (e.g. domain.tld/blog), remove leading slashes ( "/archives" -> "archives" )
 menu:
   home: /
-  #categories: /categories
+  categories: /categories
   #about: /about
   archives: /archives
   tags: /tags
   #commonweal: /404.html
+  codelabs: /lab/index.html
 
 # Place your favicon.ico to /source directory.
 favicon: /favicon.ico
@@ -74,3 +75,6 @@ images: images
 
 # Theme version
 version: 0.4.3
+
+swift_search:
+      enable: true
