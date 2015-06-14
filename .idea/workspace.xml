@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3679983c-4d1a-438e-a31d-fef2c3149f1e" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/blog/_config.yml" afterPath="$PROJECT_DIR$/blog/_config.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/blog/themes/next/source/css/_common/_section/sidebar.styl" afterPath="$PROJECT_DIR$/blog/themes/next/source/css/_common/_section/sidebar.styl" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/main.css" afterPath="$PROJECT_DIR$/css/main.css" />
     </list>
     <ignored path="liango2.github.io.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -66,11 +65,21 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="sidebar.styl" pinned="false" current-in-tab="true">
+          <file leaf-file-name="sidebar.styl" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/blog/themes/next/source/css/_common/_section/sidebar.styl">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="2.074074">
-                  <caret line="107" column="1" selection-start-line="107" selection-start-column="1" selection-end-line="107" selection-end-column="1" />
+                <state vertical-scroll-proportion="-7.142857">
+                  <caret line="107" column="0" selection-start-line="107" selection-start-column="0" selection-end-line="107" selection-end-column="0" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="main.css" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/css/main.css">
+              <provider selected="true" editor-type-id="text-editor">
+                <state vertical-scroll-proportion="1.8767442">
+                  <caret line="1127" column="1" selection-start-line="1127" selection-start-column="1" selection-end-line="1127" selection-end-column="1" />
                   <folding />
                 </state>
               </provider>
@@ -175,6 +184,7 @@
         <option value="$PROJECT_DIR$/lab/index.html" />
         <option value="$PROJECT_DIR$/blog/_config.yml" />
         <option value="$PROJECT_DIR$/blog/themes/next/source/css/_common/_section/sidebar.styl" />
+        <option value="$PROJECT_DIR$/css/main.css" />
       </list>
     </option>
   </component>
@@ -243,25 +253,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="blog" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="liango2.github.io" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="liango2.github.io" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="blog" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="public" />
+              <option name="myItemId" value="css" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -367,9 +359,9 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1320" height="784" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.1595092" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.1595092" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
@@ -431,13 +423,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/lab/js/bootstrap-2.3.0/bootstrap-combined.min.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="872" column="16083" selection-start-line="872" selection-start-column="16083" selection-end-line="872" selection-end-column="16083" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/lab/复仇者联盟2.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -619,11 +604,11 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <marker date="1434260676988" expanded="false" signature="-1:-1" placeholder="..." />
-            <marker date="1434260676988" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1434260676988" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1434260676988" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1434260676988" expanded="false" signature="-1:-1" placeholder="..." />
+            <marker date="1434262155029" expanded="false" signature="-1:-1" placeholder="..." />
+            <marker date="1434262155029" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1434262155029" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1434262155029" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1434262155029" expanded="false" signature="-1:-1" placeholder="..." />
           </folding>
         </state>
       </provider>
@@ -660,11 +645,11 @@
         <state vertical-scroll-proportion="0.47532895">
           <caret line="126" column="21" selection-start-line="126" selection-start-column="21" selection-end-line="126" selection-end-column="21" />
           <folding>
-            <marker date="1434260677248" expanded="false" signature="-1:-1" placeholder="..." />
-            <marker date="1434260677248" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1434260677248" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1434260677248" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1434260677248" expanded="false" signature="-1:-1" placeholder="..." />
+            <marker date="1434262155397" expanded="false" signature="-1:-1" placeholder="..." />
+            <marker date="1434262155397" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1434262155397" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1434262155397" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1434262155397" expanded="false" signature="-1:-1" placeholder="..." />
           </folding>
         </state>
       </provider>
@@ -835,8 +820,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/blog/themes/next/source/css/_common/_section/sidebar.styl">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="2.074074">
-          <caret line="107" column="1" selection-start-line="107" selection-start-column="1" selection-end-line="107" selection-end-column="1" />
+        <state vertical-scroll-proportion="-7.142857">
+          <caret line="107" column="0" selection-start-line="107" selection-start-column="0" selection-end-line="107" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/main.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="1.8767442">
+          <caret line="1127" column="1" selection-start-line="1127" selection-start-column="1" selection-end-line="1127" selection-end-column="1" />
           <folding />
         </state>
       </provider>

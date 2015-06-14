@@ -1094,6 +1094,37 @@ body {
   height: auto;
   border: 2px solid #333;
   padding: 2px;
+  border-radius: 50%;
+}
+@-webkit-keyframes rotater {
+  0% {
+    -webkit-transform: rotate(0) scale(1);
+  }
+  50% {
+    -webkit-transform: rotate(360deg) scale(1.1);
+  }
+  100% {
+    -webkit-transform: rotate(0) scale(1);
+  }
+}
+.site-author-image:hover {
+  /* safari / chrome */
+  -webkit-animation-name: rotater;
+  -webkit-animation-duration: 2000ms;
+  -webkit-animation-iteration-count: 1;
+  -webkit-animation-timing-function: ease-out;
+  /* mozilla */
+  -moz-transform: rotate(360deg) scale(1.1);
+  -moz-transition-duration: 1000ms;
+  -moz-transition-timing-function: ease-out;
+  /* opera */
+  -o-transform: rotate(360deg) scale(1.1);
+  -o-transition-duration: 1000ms;
+  -p-transition-timing-function: ease-out;
+  /* ie */
+  -ms-transform: rotate(360deg) scale(1);
+  -ms-transform-duration: 1000ms;
+  -ms-transform-timing-function: ease-out;
 }
 .site-author-name {
   margin: 5px 0 0;
